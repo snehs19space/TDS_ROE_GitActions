@@ -2,7 +2,7 @@
 const { chromium } = require('playwright');
 
 const seeds = Array.from({ length: 10 }, (_, i) => 74 + i);
-const baseUrl = 'https://example.com/seed'; // Replace with actual base URL
+const baseUrl = 'https://sanand0.github.io/tdsdata/js_table/?seed='; // Replace with actual base URL
 
 (async () => {
   const browser = await chromium.launch();
